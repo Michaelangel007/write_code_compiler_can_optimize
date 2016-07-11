@@ -2,8 +2,15 @@ Timestamps of source code and output:
 
 2.out  @42:35
 
-5.code @45:13
+5.js   @45:13
 6.out  @48:01
-7.code @48:46 https://youtu.be/GPpD4BBtA1Y?t=2926
-       Lines 1 .. 49
+
+7.js   @48:46, Lines 1 .. 49, https://youtu.be/GPpD4BBtA1Y?t=2926
 7.out  @49:31
+
+8.js   @50:03, Lines 1 .. 48
+8.out  @50:39
+
+9.js   @51:36, Lines 1 .. 37
+9.out  @51:55
+
