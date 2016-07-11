@@ -1,4 +1,9 @@
-Timestamps of source code:
+Timestamps of source code and output:
 
-7 @48:46 https://youtu.be/GPpD4BBtA1Y?t=2926
+2.out  @42:35
 
+5.code @45:13
+6.out  @48:01
+7.code @48:46 https://youtu.be/GPpD4BBtA1Y?t=2926
+       Lines 1 .. 49
+7.out  @49:31
