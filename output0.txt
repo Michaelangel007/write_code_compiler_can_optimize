@@ -1,4 +1,4 @@
-$ node test1.js
+$ node test0.js
 [ 0,
   1,
   1,

@@ -18,7 +18,7 @@ function A000081( len ) {
 
 
     function a( n ) {
-        process.stdout.write( n + ' ' ); // <- output n #next
+        process.stdout.write( n + ' ' );
         if( n === 0 ) 
             return 0;
 
@@ -36,6 +36,7 @@ function A000081( len ) {
     var result = [];
     for( var i = 0; i < len; i++ ) {
         result[i] = a(i);
+        process.stdout.write( '\n' ); // <- moved #next
     }
 
     return result;
