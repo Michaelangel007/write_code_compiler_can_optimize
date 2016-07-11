@@ -14,3 +14,6 @@ Timestamps of source code and output:
 9.js   @51:36, Lines 1 .. 37
 9.out  @51:55
 
+10.c   @52:30
+10.out @53:09
+
