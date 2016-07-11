@@ -37,10 +37,10 @@ function A000081( len ) {
             process.stdout.write( D + ' ' ); // #change
             sum += D;
         }
-
         for( var i = n-1; i < len; i++ ) {
-            process.stdout.write( '0 ' );
+            process.stdout.write( '0 ' ); // #add
         }
+        process.stdout.write( '\n' ); // #add
 
         var result = sum/(n-1);
         memo_a[n] = result;
@@ -50,14 +50,6 @@ function A000081( len ) {
     var result = [];
     for( var i = 0; i < len; i++ ) {
         result[i] = a(i);
-    }
-
-// ???
-    for( var i = 0; i < len; i++ ) {    // #add
-        for( var j = 0; j < len; j++ ) {
-            process.stdout.write( memo_s[i][j] + ' ' );
-        }
-        process.stdout.write( '\n' );
     }
 
     return result;
