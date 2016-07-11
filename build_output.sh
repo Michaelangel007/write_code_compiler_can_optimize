@@ -8,4 +8,7 @@ echo "6..."; node test6.js > output6.txt
 echo "7..."; node test7.js > output7.txt
 echo "8..."; node test8.js > output8.txt
 echo "9..."; node test9.js > output9.txt
+gcc test10.c -o test10
+echo "10.."; test10        > output10.txt
+echo "Done!"
 
